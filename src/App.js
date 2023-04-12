@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './app.module.css';
 import Navbar from './Navbar';
 import Adding from './Adding';
-import Userslist from './Userslist';
+import Productlist from './ProductList';
 
 
 
@@ -14,8 +14,8 @@ switch (window.location.pathname) {
     component = <Adding/>
     break;
 
-  case "/users":
-    component = <Userslist/>
+  case "/products":
+    component = <Productlist/>
     break;
 }
   return (
